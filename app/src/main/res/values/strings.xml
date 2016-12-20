@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NewsBox</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="response">-</string>
+    <string name="button_start">Start</string>
+    <string name="button_news_full">-+-</string>
+    <string name="action_settings">Settings</string>
+    <string name="cache_save">Save</string>
+    <string name="cache_load">Load(offline)</string>
+    <string name="cache_clear">Clear cache</string>
+    <string name="news_by_category">Load by category</string>
+    <string name="button_comments">Show comments</string>
+    <string name="button_full_article">Show full article(Online)</string>
+    <string name="button_full_article_offline">Show full article(Offline)</string>
+    <string name="cache_save_full">Save all for offline</string>
+</resources>
