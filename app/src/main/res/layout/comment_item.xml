@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linCommentlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/linLayoutCommentItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_com_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentTop="true"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="Author">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_com_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_alignParentTop="true"
+                android:text="Date">
+            </TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_com_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentBottom="true"
+            android:text="Content">
+        </TextView>
+<!--
+        <Button
+            android:id="@+id/newsFull"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_news_full"
+            /> -->
+    </LinearLayout>
+</RelativeLayout>

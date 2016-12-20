@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/image_news_photo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        >
+    </ImageView>
+
+
+    <LinearLayout
+        android:id="@+id/linInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@id/image_news_photo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/linLayoutNewsItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/image_news_photo"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:id="@+id/tv_news_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_alignParentTop="true"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:text="Content">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_news_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="5dp"
+                android:layout_alignParentBottom="true"
+                android:text="Date">
+            </TextView>
+
+        </LinearLayout>
+<!--
+        <Button
+            android:id="@+id/newsFull"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_news_full"
+            /> -->
+    </LinearLayout>
+</RelativeLayout>
